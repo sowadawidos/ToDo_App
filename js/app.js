@@ -4,8 +4,6 @@ import {getTasks} from "./getTasks";
 import {NewTask} from "./NewTask";
 import {Task} from "./Task";
 
-
-
 const App = () => {
     const [task, setTask] = useState([]);
 
@@ -25,7 +23,7 @@ const App = () => {
         <>
             <NewTask addTask={addTask}/>
             {
-                task.map( el => <Task key={el.id} deleteTask={deleteTask}/>)
+                task.map( el => <Task key={el.id} {...el} deleteTask={deleteTask}/>)
             }
         </>
     )

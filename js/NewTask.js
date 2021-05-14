@@ -25,7 +25,6 @@ export const NewTask = ({addTask}) => {
         setDescription(value);
     }
 
-
     return (
         <>
             <div className="card shadow">
