@@ -6,7 +6,6 @@ You can make a list of tasks that need to be completed! Task made on workshop at
 - HTML
 - React
 - Javascript ES6+
-- API
 - Webpack
 
 # Project setup
