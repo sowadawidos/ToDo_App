@@ -9,5 +9,5 @@ You can make a list of tasks that need to be completed! Task made on workshop at
 - API
 
 # Project setup
-- `<npm install && npm start>` in project directory
-- go to localhost:3000 in browser
+- `npm install && npm start` in project directory
+- `go to localhost:3001` in browser
