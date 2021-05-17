@@ -7,6 +7,7 @@ You can make a list of tasks that need to be completed! Task made on workshop at
 - React
 - Javascript ES6+
 - API
+- Webpack
 
 # Project setup
 - `npm install && npm start` in project directory
