@@ -23,7 +23,7 @@ const App = () => {
         <>
             <NewTask addTask={addTask}/>
             {
-                task.map( el => <Task key={el.id} {...el} deleteTask={deleteTask}/>)
+                task.map( el => <Task key={el.id} {...el} ondeleteTask={deleteTask}/>)
             }
         </>
     )
